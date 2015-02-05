@@ -1,0 +1,36 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cameratest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="17" />
+    
+    <!-- Add permission for camera (android.permission.CAMERA) -->
+<<<<<<< HEAD
+    <uses-permission android:name="android.permission.CAMERA"/>
+    
+    <!-- Add permission for writing to external storage (android.permission.WRITE_EXTERNAL_STORAGE) -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+=======
+    
+    <!-- Add permission for writing to external storage (android.permission.WRITE_EXTERNAL_STORAGE) -->
+>>>>>>> 4d4f87cf8f23bcf88b7bdf242a0f49a21defe7d8
+    
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
